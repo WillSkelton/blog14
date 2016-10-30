@@ -7,7 +7,7 @@
   // to the proxy end point provided by server.js.
   repos.requestRepos = function(callback) {
     $.ajax({
-      url: '/users/repos' +
+      url: 'github/users/repos' +
             '?per_page=100' +
             '&sort=updated',
       type: 'GET',
